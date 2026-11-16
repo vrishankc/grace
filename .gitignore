@@ -1,0 +1,57 @@
+# ---------------------------------------------------------------------------
+# MIMIC / PhysioNet data must NEVER be committed (PhysioNet Credentialed Health
+# Data Use Agreement). Raw downloads and everything derived from them stay local.
+# ---------------------------------------------------------------------------
+datasets/
+derived/
+
+# Belt and braces: data-like files anywhere in the repo
+*.csv
+*.csv.gz
+*.gz
+*.zip
+*.tar
+*.parquet
+*.feather
+*.npz
+*.npy
+*.pkl
+*.pickle
+*.joblib
+*.h5
+*.hdf5
+*.dcm
+*.dat
+*.hea
+*.jpg
+*.jpeg
+*.png
+*.avi
+*.mp4
+*.bin
+*.vec
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.log
+
+# Notebooks often carry data in their outputs. Commit only after clearing outputs
+# (Kernel > Restart & Clear Output) and then force-add: git add -f path/to/nb.ipynb
+*.ipynb
+.ipynb_checkpoints/
+
+# Python / tooling
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.mypy_cache/
+.pytest_cache/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+.claude/

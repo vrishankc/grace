@@ -1,0 +1,20 @@
+# Versions the pipeline was built and tested with (Python 3.9.16, macOS arm64, conda env "torch").
+# Core (labels/splits + structured/text baselines):
+pandas==2.2.2
+numpy==1.26.4
+pyarrow==11.0.0
+scikit-learn==1.5.1
+scipy==1.13.1
+tabulate==0.9.0
+xgboost==2.1.4
+
+# Deep-learning encoders (CXR / ECG / echo). Install the torch build that matches your machine:
+# https://pytorch.org/get-started/locally/
+torch==2.0.1
+torchvision==0.15.0
+
+# Echo (frozen EchoCLIP embeddings), optional:
+# open_clip_torch
+# pydicom==2.3.1
+# pylibjpeg
+# pylibjpeg-libjpeg

@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="9in" height="2.5in" viewBox="0 0 1800 500" role="img" aria-labelledby="title desc">
+<title id="title">Testing AI support for heart conditions in the emergency department</title>
+<desc id="desc">A compact research workflow: use routine emergency department data to compare a baseline AI model with medicine-specific training, known disease-drug relationships, and patient-evidence citations. Evaluate heart-condition predictions against clinician-adjudicated diagnoses and outcomes to inform pre-deployment decisions.</desc>
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#F5F8FC"/><stop offset="1" stop-color="#EAF1F8"/></linearGradient>
+ <linearGradient id="teal" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#176B87"/><stop offset="1" stop-color="#19A6A0"/></linearGradient>
+ <filter id="shadow" x="-10%" y="-15%" width="120%" height="135%"><feDropShadow dx="0" dy="6" stdDeviation="9" flood-color="#18314A" flood-opacity=".10"/></filter>
+ <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0L10 5L0 10z" fill="#7891A8"/></marker>
+ <style>
+ text{font-family:Inter,Arial,sans-serif;fill:#17324A}.title{font-size:34px;font-weight:750;letter-spacing:-.5px}.subtitle{font-size:21px;fill:#526B81}.label{font-size:17px;font-weight:800;letter-spacing:1.2px;fill:#60798E}.heading{font-size:25px;font-weight:750}.body{font-size:21px;fill:#526B81}.small{font-size:18px;fill:#688096}.pill{font-size:16px;font-weight:800;letter-spacing:.4px}.footertext{font-size:20px;font-weight:750;fill:#FFFFFF}.footerbody{font-size:20px;fill:#D1DFE9}
+ </style>
+</defs>
+<rect width="1800" height="500" fill="url(#bg)"/>
+<rect x="48" y="31" width="7" height="63" rx="3.5" fill="url(#teal)"/>
+<text x="75" y="58" class="title">Testing AI support for heart conditions in the ED</text>
+<text x="75" y="88" class="subtitle">Do specific model design choices improve predictions from routine clinical data?</text>
+<rect x="1440" y="39" width="310" height="38" rx="19" fill="#E0F3F2"/><circle cx="1464" cy="58" r="5" fill="#159D98"/><text x="1481" y="64" class="pill" fill="#176B70">PRE-DEPLOYMENT STUDY</text>
+
+<g filter="url(#shadow)">
+ <rect x="48" y="120" width="355" height="296" rx="20" fill="#FFFFFF"/>
+ <rect x="447" y="120" width="626" height="296" rx="20" fill="#FFFFFF"/>
+ <rect x="1117" y="120" width="285" height="296" rx="20" fill="#FFFFFF"/>
+ <rect x="1446" y="120" width="306" height="296" rx="20" fill="#FFFFFF"/>
+</g>
+<!-- 1. Data -->
+<circle cx="82" cy="153" r="16" fill="#DDF2F0"/><text x="82" y="159" text-anchor="middle" font-size="16" font-weight="800" fill="#137F80">1</text>
+<text x="110" y="159" class="label">PATIENT DATA</text>
+<text x="76" y="199" class="heading">ED encounter</text>
+<text x="76" y="230" class="body">Symptoms · history · medications</text>
+<text x="76" y="260" class="body">Vitals · exam · ECG · labs</text>
+<rect x="76" y="291" width="299" height="87" rx="14" fill="#F1F7FA"/>
+<path d="M98 331h24l11-20 18 39 18-30 12 11h25" fill="none" stroke="#D15C63" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="222" y="326" class="small" font-weight="700">Clinician-collected</text><text x="222" y="351" class="small">information</text>
+<!-- arrow -->
+<path d="M403 268h35" stroke="#7891A8" stroke-width="3" marker-end="url(#arrow)"/>
+<!-- 2. Design choices -->
+<circle cx="481" cy="153" r="16" fill="#DDF2F0"/><text x="481" y="159" text-anchor="middle" font-size="16" font-weight="800" fill="#137F80">2</text>
+<text x="509" y="159" class="label">MODEL DESIGN COMPARISON</text>
+<text x="475" y="199" class="heading">Same cases, different designs</text>
+<rect x="475" y="219" width="268" height="62" rx="12" fill="#F4F7FA" stroke="#E2EAF1"/>
+<rect x="490" y="235" width="75" height="29" rx="14" fill="#E4EAF0"/><text x="527" y="255" text-anchor="middle" class="pill" fill="#566D81">BASELINE</text>
+<text x="579" y="257" class="body" font-weight="650">Standard model</text>
+<rect x="758" y="219" width="289" height="62" rx="12" fill="#E8F5F7" stroke="#D1E9EC"/>
+<rect x="773" y="235" width="48" height="29" rx="14" fill="#CDE9EB"/><text x="797" y="255" text-anchor="middle" class="pill" fill="#176B78">A</text>
+<text x="835" y="245" class="body" font-weight="650">Medicine-specific</text><text x="835" y="268" class="small">training</text>
+<rect x="475" y="294" width="268" height="62" rx="12" fill="#EEF0FA" stroke="#E0E2F2"/>
+<rect x="490" y="310" width="48" height="29" rx="14" fill="#DEDEF2"/><text x="514" y="330" text-anchor="middle" class="pill" fill="#555A91">B</text>
+<text x="552" y="320" class="body" font-weight="650">Disease–drug</text><text x="552" y="343" class="small">knowledge base</text>
+<rect x="758" y="294" width="289" height="62" rx="12" fill="#FFF4E5" stroke="#F4E5C9"/>
+<rect x="773" y="310" width="48" height="29" rx="14" fill="#F8E6C4"/><text x="797" y="330" text-anchor="middle" class="pill" fill="#91611C">C</text>
+<text x="835" y="320" class="body" font-weight="650">Cite evidence from</text><text x="835" y="343" class="small">the patient record</text>
+<text x="475" y="391" class="small">Test options individually and in combination</text>
+<!-- arrow -->
+<path d="M1073 268h35" stroke="#7891A8" stroke-width="3" marker-end="url(#arrow)"/>
+<!-- 3. Prediction -->
+<circle cx="1151" cy="153" r="16" fill="#DDF2F0"/><text x="1151" y="159" text-anchor="middle" font-size="16" font-weight="800" fill="#137F80">3</text>
+<text x="1179" y="159" class="label">PREDICT</text>
+<text x="1145" y="199" class="heading">Heart condition</text>
+<text x="1145" y="229" class="body">risk or likely diagnosis</text>
+<rect x="1145" y="252" width="229" height="126" rx="15" fill="#F1F7FA"/>
+<text x="1164" y="281" class="small" font-weight="700">MODEL OUTPUT</text>
+<text x="1164" y="312" class="body">Prediction, confidence</text>
+<text x="1164" y="340" class="body">and cited patient evidence</text>
+<!-- arrow -->
+<path d="M1402 268h35" stroke="#7891A8" stroke-width="3" marker-end="url(#arrow)"/>
+<!-- 4. Assessment -->
+<circle cx="1480" cy="153" r="16" fill="#DDF2F0"/><text x="1480" y="159" text-anchor="middle" font-size="16" font-weight="800" fill="#137F80">4</text>
+<text x="1508" y="159" class="label">ASSESS</text>
+<text x="1474" y="199" class="heading">Does it improve?</text>
+<text x="1474" y="229" class="body">Check against clinician-</text>
+<text x="1474" y="256" class="body">adjudicated diagnosis</text>
+<text x="1474" y="283" class="body">and patient outcomes</text>
+<line x1="1474" y1="301" x2="1722" y2="301" stroke="#E4EBF0" stroke-width="2"/>
+<text x="1474" y="331" class="small" font-weight="700">Accuracy · sensitivity · calibration</text>
+<text x="1474" y="358" class="small">Evidence quality · patient groups</text>
+<text x="1474" y="390" class="small">Compare variants fairly</text>
+
+<!-- footer takeaway -->
+<rect x="48" y="437" width="1704" height="42" rx="14" fill="#17324A"/>
+<rect x="48" y="437" width="9" height="42" rx="4.5" fill="url(#teal)"/>
+<text x="76" y="464" class="footertext">Research output:</text>
+<text x="244" y="464" class="footerbody">evidence for developers and hospitals on which choices improve reliability before acute-care deployment</text>
+</svg>
